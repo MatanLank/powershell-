@@ -1,0 +1,1 @@
+rd /s /q "C:\Program Files\Snow Software\Inventory\Agent\data"
