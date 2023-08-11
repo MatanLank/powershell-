@@ -1,4 +1,4 @@
-﻿    mstsc /v asctxtes001
+﻿    mstsc /v servername
 
     Start-Sleep -s 7
      
