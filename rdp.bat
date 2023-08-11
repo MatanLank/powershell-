@@ -1,4 +1,4 @@
-   mstsc /v asctxtes001
+   mstsc /v Object
 
    Start-Sleep -s 5
 
@@ -6,11 +6,11 @@
 
     Start-Sleep -s 5
      
-    [System.Windows.Forms.SendKeys]::SendWait("{matanla}")
+    [System.Windows.Forms.SendKeys]::SendWait("{UserName}")
 
     Start-Sleep -s 5
 
-    [System.Windows.Forms.SendKeys]::SendWait("{Bp19@19!}")
+    [System.Windows.Forms.SendKeys]::SendWait("{Password}")
 
     Start-Sleep -s 5
 
