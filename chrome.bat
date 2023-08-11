@@ -5,7 +5,7 @@ Dim SendKeys
 iURL = "https://storefront.asuta.co.il/Citrix/AsutaWeb/"
 
 set objShell = CreatObject("Shell.Application")
-objShell.ShellExecute "chrome.exe", iURL, "https://storefront.asuta.co.il/Citrix/AsutaWeb/"
+objShell.ShellExecute "chrome.exe", iURL, "StoreFrontURL"
 
 WSH.Sleep 4000
 
