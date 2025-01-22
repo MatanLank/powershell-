@@ -2,7 +2,7 @@ Dim iURL
 Dim objShell
 Dim SendKeys
 
-iURL = "https://storefront.asuta.co.il/Citrix/AsutaWeb/"
+iURL = "https://storefront.DOMAIN/Citrix/AsutaWeb/"
 
 set objShell = CreatObject("Shell.Application")
 objShell.ShellExecute "chrome.exe", iURL, "StoreFrontURL"
